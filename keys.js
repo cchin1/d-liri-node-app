@@ -5,4 +5,8 @@ exports.spotify = {
   secret: process.env.SPOTIFY_SECRET
 };
 
-var keys = require("./keys.js");
+//var keys = require("./keys.js");
+
+//You should then be able to access your keys info like so
+
+//var spotify = new Spotify(keys.spotify);

@@ -4,7 +4,7 @@ Lead Developer:  Candice Chin
 https://candicechin.com
 
 ## Technologies Used
-node.JS, Bands in Town Artist Events API, Spotify API, IMDB API, Axios, Moment, and DotEnv
+JavaScript, node.JS, NPM packages, Bands in Town Artist Events API, Spotify API, IMDB API, Axios, Moment, and DotEnv
 
 ## Problem that LIRI Bot is Trying to Solve
 LIRI Bot enables a user to use the command line to retrieve Bands in Town events, Spotiy, and Movie info in an organized and easy-to-read format. LIRI is like iPhone's SIRI, however while SIRI is a 
@@ -14,10 +14,33 @@ that takes in parameters and gives back data to the user.
 
 ## Overview of App Organization
 liri.js can take in one of the following commands:
+
 concert-this
+This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
+   Name of the venue
+   Venue location
+   Date of the Event (use moment to format this as "MM/DD/YYYY")
+
 spotify-this-song
+This will show the following information about the song in your terminal/bash window
+   Artist(s)
+   The song's name
+   A preview link of the song from Spotify
+   The album that the song is from
+
 movie-this
+This will output the following information to your terminal/bash window:
+   Title of the movie.
+   Year the movie came out.
+   IMDB Rating of the movie.
+   Rotten Tomatoes Rating of the movie.
+   Country where the movie was produced.
+   Language of the movie.
+   Plot of the movie.
+   Actors in the movie.
+
 do-what-it-says
+   LIRI will use the text from “random.txt” and call on of LIRI’s commands. It should run Spotify-this-song for “I want it That way”.
 
 ## What Each Command Should Do
 
