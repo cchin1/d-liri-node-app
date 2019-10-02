@@ -17,7 +17,6 @@ var fs = require ("fs");
 
 // Grab all of the command line arguments from Node
 var nodeArgs = process.argv;
-//console.log(process.argv);
 
 var userInput = "";
 var nextUserInput = "";
