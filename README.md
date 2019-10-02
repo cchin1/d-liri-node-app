@@ -21,12 +21,16 @@ This will search the Bands in Town Artist Events API for an artist and render th
    Venue location
    Date of the Event (use moment to format this as "MM/DD/YYYY")
 
+![Concert-this](/images/concert-this.png)
+
 spotify-this-song
 This will show the following information about the song in your terminal/bash window
    Artist(s)
    The song's name
    A preview link of the song from Spotify
    The album that the song is from
+
+![Spotify-this-song](/images/spotify-this-song.png)
 
 movie-this
 This will output the following information to your terminal/bash window:
@@ -39,8 +43,12 @@ This will output the following information to your terminal/bash window:
    Plot of the movie.
    Actors in the movie.
 
+![Movie-this](/images/movie-this.png)
+
 do-what-it-says
    LIRI will use the text from “random.txt” and call on of LIRI’s commands. It should run Spotify-this-song for “I want it That way”.
+
+![Do-what-it-says](/images/do-what-it-says.png)
 
 ## What Each Command Should Do
 
@@ -102,10 +110,6 @@ concert-this
 spotify-this-song
 movie-this
 do-what-it-says
-
-## Screens of App Functioning
-REMEMBER TO ADD THIS TO PORTFOLIO
-As follows - 
 
 ## Link to Deployed Version of App
 https://github.com/cchin1/liri-node-app
